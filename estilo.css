@@ -1,0 +1,120 @@
+body{
+    margin: 100px;
+    font-family: tahoma, arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.img01{
+    height: 550px;
+    margin-top: 0px;
+}
+.hero nav ul{
+    background-color: rgb(0, 0, 46);
+    display: block;
+    text-align: right;
+    z-index: 4;
+    width: 1114px;
+    margin-bottom: 0px;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border:10px solid transparent;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.hero nav a{
+    color: rgb(62, 62, 83);
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color .3s linear; /*recebe qual propriedade esta animando, tempo, aceleracao ou desaceleracao*/
+}
+.hero nav a:hover{
+    color: rgb(85, 82, 117);
+}
+#logo{
+    position: absolute;
+    left: 180px;
+    z-index: none;
+}
+.portifolio01 {
+    text-align: center;
+    margin: 100px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.portifolio01 h1{
+    font-size: 40px;
+}
+.portifolio01 p{
+    color: rgb(80, 80, 80);
+    margin-left: 175px;
+}
+.mod1, .mod2, .mod3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.mod1 img, .mod2 img, .mod3 img{
+    width: 90%;
+}
+.mod1 h2, .mod2 h2, .mod3 h2{
+    text-transform: uppercase;
+    color: rgb(73, 73, 73);
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.mod1 p, .mod2 p, .mod3 p{
+    color: rgb(177, 177, 177);
+    letter-spacing: -0.2px;
+}
+.About{
+    background-color: #003d52;
+    padding: 100px;
+    background-image: url(ProjetoFashion_inicio/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+.About h1, p{
+    line-height: 1.5;
+    width: 70%; 
+}
+.About h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: normal;
+}
+.About p{
+    letter-spacing: 2px;   
+    text-align: left;
+    margin-right: 500px;
+}
+.contact{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(2, 2, 70);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+}
+.maps{
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(2, 2, 46);
+    color:rgb(72, 72, 116);
+    height: 60px;
+    line-height: 60px;
+    /*height: 60px;
+    text-align: center;
+    line-height: 60px;*/
+}
+footer p{
+    margin-left: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
